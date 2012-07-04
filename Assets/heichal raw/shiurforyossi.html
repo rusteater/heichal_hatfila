@@ -1,0 +1,1211 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<meta name="generator" content="Alpha Five HTML Editor Version 10 Build 3641-3625">
+
+<!-- must use in order to make XP Themes render -->
+
+<meta HTTP-EQUIV="MSThemeCompatible" content="Yes" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+
+
+
+
+<title>Heichal Hatfila</title>
+<link href="styles/template.css" rel="stylesheet">
+<script type="text/javascript" src="jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="javascript/a5.js"></script>
+
+<script type="text/javascript" src="javascript/a5_url.js"></script>
+
+
+
+
+
+<script type="text/javascript" language="javascript">
+
+A5._listBoxDefaults = {
+
+	titleClassName: 'yossiColumnTD',
+
+	separatorClassName: 'yossiNavSysTBMenuSeparator',
+
+	item: {
+
+		className: 'yossiDataLink yossiNavSysTBMenuOff',
+
+		selectedClassName: 'yossiNavSysTBMenuOn',
+
+		style: 'display: block; text-decoration: none; cursor: pointer;'
+
+	}
+
+}
+
+A5._treeDefaults = {
+
+	node: {
+
+		className: 'yossiNavSysTBMenuOff',
+
+		selectedClassName: 'yossiNavSysTBMenuOn',
+
+		labelClassName: 'yossiDataLink',
+
+		branch: {
+
+			expandedImage: 'CSS/A5System/Vista/tree/bc.png',
+
+			collapsedImage: 'CSS/A5System/Vista/tree/bo.png'
+
+		}
+
+	},
+
+	branch: {
+
+		nullImage: 'CSS/A5System/Vista/tree/n.png'
+
+	}
+
+}
+
+A5._windowDefaults = {
+
+	className: 'yossiPageBODY yossiFormTABLE A5Window',
+
+	outerWrapClassName: ' A5WindowInner',
+
+	innerWrapClassName: 'A5WindowBodyOuter',
+
+	activeClassName: 'A5WindowActive',
+
+	lockUIClassName: 'A5WindowLock',
+
+	title: {
+
+		className: 'yossiColumnTD A5WindowTitle',
+
+		style: 'cursor: move; ',
+
+		tools: {
+
+			defaults: {
+
+				'close': {
+
+					action: 'close',
+
+					name: 'close',
+
+					image: 'images/$$window.button.close.png.a5image'
+
+				}
+
+			}
+
+		}
+
+	},
+
+	header: {
+
+		className: 'yossiAltDataTD A5WindowHeader'
+
+	},
+
+	tbar: {
+
+		className: 'yossiAltDataTD A5WindowTBAR'
+
+	},
+
+	body: {
+
+		className: 'yossiDataTD A5WindowBody',
+
+		style: 'overflow: auto;'
+
+	},
+
+	bbar: {
+
+		className: 'yossiAltDataTD A5WindowBBar'
+
+	},
+
+	buttons: {
+
+		className: 'yossiFooterTD A5WindowButtons',
+
+		style: 'text-align: right; '
+
+	},
+
+	footer: {
+
+		className: 'yossiAltDataTD A5WindowFooter'
+
+	},
+
+	resizer: {
+
+		className: 'yossiFooterTD A5WindowResize',
+
+		style: 'padding: 4px;',
+
+		thumbImage: 'CSS/A5System/Images/resizeThumb.gif'
+
+	},
+
+	_buttonDefaults: {
+
+		className: 'yossiButton A5WindowButton',
+
+		width: '.75in'
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="css/yossi/style.css">
+
+<link rel="stylesheet" type="text/css" href="css/yossi/components/a5navsysToolbar/style.css">
+
+<style type="text/css">
+
+.A5container {float:left; padding: 2px;}
+
+.A5GridHideErrorCol .A5GridErrorCol {  display: none;  }
+
+.A5GridRowErrorIcon { display: none;}
+
+.A5GridHasRowError .A5GridRowErrorIcon { display: inline;}
+
+.A5GridRowViewMode {display: block;}
+
+.A5GridRowEditMode {display: none;}
+
+.A5GridRowInEditMode .A5GridRowViewMode {display: none;}
+
+.A5GridRowInEditMode .A5GridRowEditMode {display: block;}
+
+.A5GridRowDirty {display: none;}
+
+.A5GridRowClean {display: inline;}
+
+.A5GridRowIsDirty .A5GridRowDirty {display: inline;}
+
+.A5GridRowIsDirty .A5GridRowClean {display: none;}
+
+.errorText {color: red; font-size: 8pt;}
+
+.errorTextHighlight { font-weight: bold;font-size: 8pt;}
+
+.errorTip {color: red;background: #fffafa url('images/$box/$size/8x8/$fill/Up%5FDiagonal:White%3A%23255%2C239%2C239.png.a5image');border: 1px solid #f88;margin-top: 2px;padding: 2px;font-size: 8pt;}
+
+.errorInput {color: red;border: 1px solid red;margin: 1px;}
+
+.errorInputHighlight {color: red;border: 2px solid red;margin: 0px;}
+
+.A5SelectedButton {	opacity: .5;	filter: alpha(opacity=50);}
+
+
+
+.A5AccordionTitleOn, .A5AccordionTitleOff, .A5AccordionTitleDisabled {display: block;border: 1px solid #999;padding: 2px;text-decoration: none;cursor: pointer;margin-bottom: 2px; padding: 2px}
+
+.A5AccordionPane {border: 1px solid #999;border-top: none;margin-bottom: 2px;margin-top: -2px;}
+
+.A5TabTopOn, .A5TabTopOff, .A5TabTopDisabled {display: block;float: left;border: 1px solid #999;border-bottom: none;margin-right: 2px;padding: 2px;text-decoration: none;cursor: pointer;}
+
+.A5TabTopOn {margin-bottom: -1px;padding-bottom: 3px;}
+
+.A5TabBottomOn, .A5TabBottomOff, .A5TabBottomDisabled {display: block;float: left;border: 1px solid #999;margin-right: 2px;padding: 2px;text-decoration: none;cursor: pointer;}
+
+.A5TabBottomOn {border-top: none;padding-top: 3px;}
+
+.A5TabLeftOn, .A5TabLeftOff, .A5TabLeftDisabled {display: block;border: 1px solid #999;margin-bottom: 2px;padding: 2px;text-decoration: none;cursor: pointer;}
+
+.A5TabLeftOn {margin-right: -1px;padding-right: 3px;border-right: none;}
+
+.A5TabRightOn, .A5TabRightOff, .A5TabRightDisabled {display: block;border: 1px solid #999;border-left: none;margin-bottom: 2px;padding: 2px;text-decoration: none;cursor: pointer;}
+
+.A5TabRightOn {margin-left: -1px;padding-left: 3px;}
+
+.A5TabTopPane, .A5TabBottomPane, .A5TabLeftPane, .A5TabRightPane {border: 1px solid #999; padding: 2px;}
+
+
+
+
+
+.A5TabBand {border: 1px solid #999; padding: 0px;}
+
+.A5TabBandTabOn, .A5TabBandTabOff, .A5TabBandTabDisabled {position: relative;display: block;border: 1px solid #999;border-bottom: none;margin-right: 2px;margin-top: 2px;padding: 2px;text-decoration: none;cursor: pointer;white-space: nowrap;}
+
+.A5TabBandTabOn {margin-bottom: -1px;padding-bottom: 3px;}
+
+.A5TabBandSeparator {border: none;border-top: 1px solid #999;height: 3px;padding: 0px;font: 0pt arial;}
+
+.A5TabBandLeftScroll {position: relative;display: block;padding: 2px;margin-bottom: -1px;padding-bottom: 3px;text-decoration: none;border: 1px solid #999;border-left: none;border-bottom: none;}
+
+.A5TabBandRightScroll {position: relative;display: block;padding: 2px;margin-bottom: -1px;padding-bottom: 3px;text-decoration: none;border: 1px solid #999;border-right: none;border-bottom: none;}
+
+.A5TabBandTabDisabled, .A5TabTopDisabled, .A5TabLeftDisabled, .A5TabRightDisabled, .A5TabBottomDisabled, .A5AccordionTitleDisabled {opacity: .5; filter: alpha(opacity: 50)}
+
+.A5Window {-moz-border-radius: 3px; -webkit-border-radius: 3px;}
+
+.A5WindowLock{border: 1px solid #000;background: #222;opacity: .25;filter: alpha(opacity: 25);}
+
+
+
+.A5AccordionTitleOn:hover, .A5AccordionTitleOff:hover, .A5TabBandTabOff:hover, .A5TabTopOff:hover, .A5TabLeftOff:hover, .A5TabRightOff:hover, .A5TabBottomOff:hover{text-decoration: underline;}
+
+
+
+
+
+
+
+</style>	
+
+
+
+</head>
+
+<body>
+<div id="wrapper">
+        <div id="header">
+        	<h1><a href="/" title="Home">Beis Hamedrash Heichel Hatfila - בית המדרש היכל התפלה</a></h1>
+        	<a href="#">Log-out</a>
+            <ul>
+            	<li class="first"><a class="passive" href="tora.html">תורה</a></li>
+                <li class="second"><a class="active" href="avoda.html">עבודה</a></li>
+                <li class="third"><a class="passive" href="gemach.html">גמ&quot;ח</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <h2>תורה</h2>
+            <h3 class="avoda">זמני תפלה ושיעורים</h3>
+	<div id="search">
+
+	<font class="yossiFormHeaderFont" >Search </font>
+
+<form id="YOSSISHIUR.SEARCH_PART.FORM" name="YOSSISHIUR_Search" onsubmit="YOSSISHIUR_GridObj.submitSearchForm(); return false;"    >
+
+<table class="yossiFormTABLE" cellspacing="0" cellpadding="3"  >
+
+<tr id="YOSSISHIUR.SEARCHROW.SMALLDESCRIPTION">
+
+	<td  id="YOSSISHIUR.SL.SMALLDESCRIPTION"  class="yossiFieldCaptionTD"  nowrap="nowrap" ><label for="YOSSISHIUR.S.SMALLDESCRIPTION">Smalldescription&nbsp;</label></td>
+
+	<td   id="YOSSISHIUR.S.TD.SMALLDESCRIPTION"  class="yossiDataTD"  ><input     id="YOSSISHIUR.S.SMALLDESCRIPTION"  size="40" maxlength="200"  class="yossiInput" type="text" name="S.SMALLDESCRIPTION" value="" /> &nbsp;</td>
+
+</tr>
+
+<tr>
+
+	<td class="yossiFieldCaptionTD" nowrap="nowrap" >Sort&nbsp;by&nbsp;</td>
+
+	<td class="yossiDataTD" nowrap="nowrap" >
+
+		<select  id="YOSSISHIUR_SORTCOLUMN" class="yossiSelect" name="SS._SortColumn">
+
+<option value="">Select Field</option>
+
+
+
+		</select>&nbsp;
+
+		<select  id="YOSSISHIUR_SORTDIR" class="yossiSelect" name="SS._SortDir">
+
+<option value="">Select Order</option>
+
+<option value="Ascending">Ascending</option>
+
+<option value="Descending">Descending</option>
+
+
+
+		</select>&nbsp;
+
+	</td>
+
+</tr>
+
+<tr>
+
+	<td class="yossiFieldCaptionTD" >Records&nbsp;per&nbsp;page&nbsp;</td>
+
+	<td class="yossiDataTD" >
+
+		<select  id="YOSSISHIUR_ROWCOUNT" class="yossiSelect" name="SS._RowCount">
+
+<option value="">Select Value</option>
+
+<option value="1">1</option>
+
+<option value="2">2</option>
+
+<option value="5">5</option>
+
+<option value="10">10</option>
+
+<option value="25">25</option>
+
+<option value="50">50</option>
+
+<option value="75">75</option>
+
+<option value="100">100</option>
+
+
+
+		</select>&nbsp;
+
+	</td>
+
+</tr>
+
+
+
+<tr>
+
+	<td class="yossiFooterTD" nowrap="nowrap" align="left" colspan="1">
+
+		<a class="yossiNavigatorLink" href="#" onclick="YOSSISHIUR_GridObj.clearSearchForm() ;return false;"  >Clear Search Criteria</a>&nbsp;
+
+	</td>
+
+	<td class="yossiFooterTD"nowrap="nowrap" align="right" >
+
+		<button type="submit" class="yossiButton">Search</button>&nbsp;
+
+	</td>
+
+
+
+</tr>
+
+</table>
+
+</form>	</div>
+
+	<div id="Page">
+
+	<div class="errorTip" style="display: none;" id="YOSSISHIUR.GLOBALERRORS"></div><!--End div GLOBALERRORS--><input id="YOSSISHIUR.STATEINFO" type="hidden" value="__si.overrideSettings=l%8bs%7dST1%23k%21iJ%40%3beFi%3c%29%28v%26Yy%96%8b%5bDa%7ci3%60Yy6Z%7e19%2f0%5f5%7e%2fcv%7d%3b%29%28wxNJg%3f%23%24cK%96&__si.dtFmt=MM%2fdd%2fyyyy&__si.initialized=True&__si.isNestedGrid=False&__si.NestedGridName=&__si.GUID=d6240b14%2da76b%2d43e3%2d8ae3%2d70963071113a&__si.Timer=False&__si.SaveDebugInfo=No&__si.QS_LinkInfo=&__si.QS_LinkInfoCount=&__si.order=&__si.sortColumn=1&__si.sortDirection=&__si.baseFilterReset=&__si.FB=&__si.PB=&__si.FLSF=&__si.FL=&__si.PL=&__si.Filter_combined=&__si.Parameters_combined=&__si.RowCount=10&__si.pageNumber=1&__si.lrn=1&__si.RecordCount=273&__si.LogicalRecNo=10&__si.gridQBE=&__si.rowsInEditMode=&__si.QS="/>
+
+<div id="YOSSISHIUR.GRID_PART.FORM_CONTAINER_DIV">
+
+
+
+
+
+
+
+Records:&nbsp; <span id="YOSSISHIUR.RECORDCOUNT.TOP">273</span>&nbsp;
+
+<table id="YOSSISHIUR.GRID_PART.DATAREGION" class="yossiFormTABLE" style="empty-cells:show; " cellspacing="0" cellpadding="3" > 
+
+
+
+
+
+
+
+
+
+
+
+<tbody id="YOSSISHIUR.COLUMNTITLES.TOP">
+
+<tr>
+
+<!--Start:RowSelector-->
+
+	<th class="yossiColumnTD">&nbsp;</th>
+
+<!--End:RowSelector-->
+
+<th id="YOSSISHIUR.COLUMNTITLES.TOP._UNBOUND_BUTTON_2" class="yossiColumnTD"   nowrap="nowrap">
+
+	<a class="yossiSorterLink" href="#" onclick="YOSSISHIUR_GridObj.sort(1); return false;">&nbsp;</a> <img src="css/yossi/AscOn.png" border="0"> 
+
+</th>
+
+<th id="YOSSISHIUR.COLUMNTITLES.TOP._UNBOUND_BUTTON_1" class="yossiColumnTD"   nowrap="nowrap">
+
+	<a class="yossiSorterLink" href="#" onclick="YOSSISHIUR_GridObj.sort(2); return false;">&nbsp;</a>  
+
+</th>
+
+<th id="YOSSISHIUR.COLUMNTITLES.TOP.WEEK" class="yossiColumnTD" colspan="1"  nowrap="nowrap">
+
+	<a class="yossiSorterLink" href="#" onclick="YOSSISHIUR_GridObj.sort(3); return false;">&nbsp;</a>  
+
+</th>
+
+</tr>
+
+</tbody>
+
+
+
+
+
+
+
+
+
+<tbody id="YOSSISHIUR.R1"  >
+
+<tr>
+
+<!--Start:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R1.__SYSTEM_ROWSELECTCOLUMN" rowspan="1" class="yossiDataTD " ><img  src="css/yossi/RowMarkerOff.png" style="visibility:hidden;" id="YOSSISHIUR.R1.__ROWSELECTOR"  /></td>
+
+<!--End:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R1._UNBOUND_BUTTON_2" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R1._UNBOUND_BUTTON_2" style="cursor:pointer;" class="yossiButton " >Play</button></td>
+
+	<td id="YOSSISHIUR.TD.R1._UNBOUND_BUTTON_1" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R1._UNBOUND_BUTTON_1" style="cursor:pointer;" class="yossiButton " >Download</button></td>
+
+	<td id="YOSSISHIUR.TD.R1.WEEK" class="yossiDataTD"  ><span id="YOSSISHIUR.V.R1.WEEK">?? ???&quot;?</span><input type="hidden" name="V.R1.ID" id="YOSSISHIUR.V.R1.ID" value="2" />
+
+<input type="hidden" name="V.R1.MP3FILENAME" id="YOSSISHIUR.V.R1.MP3FILENAME" value="026.mp3" />
+
+ <span id="YOSSISHIUR.V.R1.TYPE">??? ????</span> <span id="YOSSISHIUR.V.R1.MESECHTA">?????</span> <span id="YOSSISHIUR.V.R1.DAF">? ?&quot;?</span> <span id="YOSSISHIUR.V.R1.SMALLDESCRIPTION">?. ????? ????? ???? ??&quot;?.  ?. ??? ???? ???? ???? ??? ????? ????.</span></td>
+
+</tr>
+
+<tr>
+
+	<td class="yossiSeparatorTD" colspan="4" style="padding: 0px;" ></td>
+
+</tr>
+
+</tbody>
+
+<tbody id="YOSSISHIUR.R2"  >
+
+<tr>
+
+<!--Start:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R2.__SYSTEM_ROWSELECTCOLUMN" rowspan="1" class="yossiDataTD " ><img  src="css/yossi/RowMarkerOff.png" style="visibility:hidden;" id="YOSSISHIUR.R2.__ROWSELECTOR"  /></td>
+
+<!--End:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R2._UNBOUND_BUTTON_2" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R2._UNBOUND_BUTTON_2" style="cursor:pointer;" class="yossiButton " >Play</button></td>
+
+	<td id="YOSSISHIUR.TD.R2._UNBOUND_BUTTON_1" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R2._UNBOUND_BUTTON_1" style="cursor:pointer;" class="yossiButton " >Download</button></td>
+
+	<td id="YOSSISHIUR.TD.R2.WEEK" class="yossiDataTD"  ><span id="YOSSISHIUR.V.R2.WEEK">?? ?? ???&quot;?</span><input type="hidden" name="V.R2.ID" id="YOSSISHIUR.V.R2.ID" value="3" />
+
+<input type="hidden" name="V.R2.MP3FILENAME" id="YOSSISHIUR.V.R2.MP3FILENAME" value="026.mp3" />
+
+ <span id="YOSSISHIUR.V.R2.TYPE">??? ????</span> <span id="YOSSISHIUR.V.R2.MESECHTA">?????</span> <span id="YOSSISHIUR.V.R2.DAF">? ?&quot;?</span> <span id="YOSSISHIUR.V.R2.SMALLDESCRIPTION">???? ??? ???&#039;? ??????, ??? ????? ????? ??&#039; ????? ???? ?? ?????? ??? ??????:</span></td>
+
+</tr>
+
+<tr>
+
+	<td class="yossiSeparatorTD" colspan="4" style="padding: 0px;" ></td>
+
+</tr>
+
+</tbody>
+
+<tbody id="YOSSISHIUR.R3"  >
+
+<tr>
+
+<!--Start:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R3.__SYSTEM_ROWSELECTCOLUMN" rowspan="1" class="yossiDataTD " ><img  src="css/yossi/RowMarkerOff.png" style="visibility:hidden;" id="YOSSISHIUR.R3.__ROWSELECTOR"  /></td>
+
+<!--End:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R3._UNBOUND_BUTTON_2" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R3._UNBOUND_BUTTON_2" style="cursor:pointer;" class="yossiButton " >Play</button></td>
+
+	<td id="YOSSISHIUR.TD.R3._UNBOUND_BUTTON_1" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R3._UNBOUND_BUTTON_1" style="cursor:pointer;" class="yossiButton " >Download</button></td>
+
+	<td id="YOSSISHIUR.TD.R3.WEEK" class="yossiDataTD"  ><span id="YOSSISHIUR.V.R3.WEEK">???? ???&quot;?</span><input type="hidden" name="V.R3.ID" id="YOSSISHIUR.V.R3.ID" value="4" />
+
+<input type="hidden" name="V.R3.MP3FILENAME" id="YOSSISHIUR.V.R3.MP3FILENAME" value="EY  # 03.MP3" />
+
+ <span id="YOSSISHIUR.V.R3.TYPE">??? ????</span> <span id="YOSSISHIUR.V.R3.MESECHTA">?????</span> <span id="YOSSISHIUR.V.R3.DAF">? ?&quot;?</span> <span id="YOSSISHIUR.V.R3.SMALLDESCRIPTION">?&quot;? ????: ??? ?????? ???? ???.  ????? ?&#039; ???? ???</span></td>
+
+</tr>
+
+<tr>
+
+	<td class="yossiSeparatorTD" colspan="4" style="padding: 0px;" ></td>
+
+</tr>
+
+</tbody>
+
+<tbody id="YOSSISHIUR.R4"  >
+
+<tr>
+
+<!--Start:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R4.__SYSTEM_ROWSELECTCOLUMN" rowspan="1" class="yossiDataTD " ><img  src="css/yossi/RowMarkerOff.png" style="visibility:hidden;" id="YOSSISHIUR.R4.__ROWSELECTOR"  /></td>
+
+<!--End:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R4._UNBOUND_BUTTON_2" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R4._UNBOUND_BUTTON_2" style="cursor:pointer;" class="yossiButton " >Play</button></td>
+
+	<td id="YOSSISHIUR.TD.R4._UNBOUND_BUTTON_1" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R4._UNBOUND_BUTTON_1" style="cursor:pointer;" class="yossiButton " >Download</button></td>
+
+	<td id="YOSSISHIUR.TD.R4.WEEK" class="yossiDataTD"  ><span id="YOSSISHIUR.V.R4.WEEK">??? ??? ???&quot;?</span><input type="hidden" name="V.R4.ID" id="YOSSISHIUR.V.R4.ID" value="5" />
+
+<input type="hidden" name="V.R4.MP3FILENAME" id="YOSSISHIUR.V.R4.MP3FILENAME" value="EY  # 04.MP3" />
+
+ <span id="YOSSISHIUR.V.R4.TYPE">??? ????</span> <span id="YOSSISHIUR.V.R4.MESECHTA">?????</span> <span id="YOSSISHIUR.V.R4.DAF">?&#039; ?&quot;?</span> <span id="YOSSISHIUR.V.R4.SMALLDESCRIPTION">?&#039; ?????? ????: ??? ?????? ??? ?????. ??? ?? ???? ????? ???? ???&quot;? ????? ????</span></td>
+
+</tr>
+
+<tr>
+
+	<td class="yossiSeparatorTD" colspan="4" style="padding: 0px;" ></td>
+
+</tr>
+
+</tbody>
+
+<tbody id="YOSSISHIUR.R5"  >
+
+<tr>
+
+<!--Start:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R5.__SYSTEM_ROWSELECTCOLUMN" rowspan="1" class="yossiDataTD " ><img  src="css/yossi/RowMarkerOff.png" style="visibility:hidden;" id="YOSSISHIUR.R5.__ROWSELECTOR"  /></td>
+
+<!--End:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R5._UNBOUND_BUTTON_2" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R5._UNBOUND_BUTTON_2" style="cursor:pointer;" class="yossiButton " >Play</button></td>
+
+	<td id="YOSSISHIUR.TD.R5._UNBOUND_BUTTON_1" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R5._UNBOUND_BUTTON_1" style="cursor:pointer;" class="yossiButton " >Download</button></td>
+
+	<td id="YOSSISHIUR.TD.R5.WEEK" class="yossiDataTD"  ><span id="YOSSISHIUR.V.R5.WEEK">?????? ???&quot;?</span><input type="hidden" name="V.R5.ID" id="YOSSISHIUR.V.R5.ID" value="6" />
+
+<input type="hidden" name="V.R5.MP3FILENAME" id="YOSSISHIUR.V.R5.MP3FILENAME" value="EY  # 05.MP3" />
+
+ <span id="YOSSISHIUR.V.R5.TYPE">??? ????</span> <span id="YOSSISHIUR.V.R5.MESECHTA">?????</span> <span id="YOSSISHIUR.V.R5.DAF">?&#039; ?&quot;?</span> <span id="YOSSISHIUR.V.R5.SMALLDESCRIPTION">?????? ??????, ???? ????.  ????, ??? ??????. ?????, ????? ???? ???? ???, ???? ????? ?? ????.</span></td>
+
+</tr>
+
+<tr>
+
+	<td class="yossiSeparatorTD" colspan="4" style="padding: 0px;" ></td>
+
+</tr>
+
+</tbody>
+
+<tbody id="YOSSISHIUR.R6"  >
+
+<tr>
+
+<!--Start:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R6.__SYSTEM_ROWSELECTCOLUMN" rowspan="1" class="yossiDataTD " ><img  src="css/yossi/RowMarkerOff.png" style="visibility:hidden;" id="YOSSISHIUR.R6.__ROWSELECTOR"  /></td>
+
+<!--End:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R6._UNBOUND_BUTTON_2" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R6._UNBOUND_BUTTON_2" style="cursor:pointer;" class="yossiButton " >Play</button></td>
+
+	<td id="YOSSISHIUR.TD.R6._UNBOUND_BUTTON_1" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R6._UNBOUND_BUTTON_1" style="cursor:pointer;" class="yossiButton " >Download</button></td>
+
+	<td id="YOSSISHIUR.TD.R6.WEEK" class="yossiDataTD"  ><span id="YOSSISHIUR.V.R6.WEEK">???? ???&quot;?</span><input type="hidden" name="V.R6.ID" id="YOSSISHIUR.V.R6.ID" value="7" />
+
+<input type="hidden" name="V.R6.MP3FILENAME" id="YOSSISHIUR.V.R6.MP3FILENAME" value="EY  # 06.MP3" />
+
+ <span id="YOSSISHIUR.V.R6.TYPE">??? ????</span> <span id="YOSSISHIUR.V.R6.MESECHTA">?????</span> <span id="YOSSISHIUR.V.R6.DAF">?&#039; ?&quot;?</span> <span id="YOSSISHIUR.V.R6.SMALLDESCRIPTION">?&quot;? ????: ??? ??? ????? ???? ????, ??????? ??????... ?? ????? ???? ????, ???? ?? ?? ????... ??? ?&#039;</span></td>
+
+</tr>
+
+<tr>
+
+	<td class="yossiSeparatorTD" colspan="4" style="padding: 0px;" ></td>
+
+</tr>
+
+</tbody>
+
+<tbody id="YOSSISHIUR.R7"  >
+
+<tr>
+
+<!--Start:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R7.__SYSTEM_ROWSELECTCOLUMN" rowspan="1" class="yossiDataTD " ><img  src="css/yossi/RowMarkerOff.png" style="visibility:hidden;" id="YOSSISHIUR.R7.__ROWSELECTOR"  /></td>
+
+<!--End:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R7._UNBOUND_BUTTON_2" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R7._UNBOUND_BUTTON_2" style="cursor:pointer;" class="yossiButton " >Play</button></td>
+
+	<td id="YOSSISHIUR.TD.R7._UNBOUND_BUTTON_1" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R7._UNBOUND_BUTTON_1" style="cursor:pointer;" class="yossiButton " >Download</button></td>
+
+	<td id="YOSSISHIUR.TD.R7.WEEK" class="yossiDataTD"  ><span id="YOSSISHIUR.V.R7.WEEK">????? ???&quot;?</span><input type="hidden" name="V.R7.ID" id="YOSSISHIUR.V.R7.ID" value="8" />
+
+<input type="hidden" name="V.R7.MP3FILENAME" id="YOSSISHIUR.V.R7.MP3FILENAME" value="EY  # 07.MP3" />
+
+ <span id="YOSSISHIUR.V.R7.TYPE">??? ????</span> <span id="YOSSISHIUR.V.R7.MESECHTA">?????</span> <span id="YOSSISHIUR.V.R7.DAF">? ?&quot;?</span> <span id="YOSSISHIUR.V.R7.SMALLDESCRIPTION">?&quot;? ????: ??? ??? ????? ???? ????, ??????? ??????... ?? ????? ???? ????, ???? ?? ?? ????... (????) ??? ?&#039;</span></td>
+
+</tr>
+
+<tr>
+
+	<td class="yossiSeparatorTD" colspan="4" style="padding: 0px;" ></td>
+
+</tr>
+
+</tbody>
+
+<tbody id="YOSSISHIUR.R8"  >
+
+<tr>
+
+<!--Start:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R8.__SYSTEM_ROWSELECTCOLUMN" rowspan="1" class="yossiDataTD " ><img  src="css/yossi/RowMarkerOff.png" style="visibility:hidden;" id="YOSSISHIUR.R8.__ROWSELECTOR"  /></td>
+
+<!--End:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R8._UNBOUND_BUTTON_2" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R8._UNBOUND_BUTTON_2" style="cursor:pointer;" class="yossiButton " >Play</button></td>
+
+	<td id="YOSSISHIUR.TD.R8._UNBOUND_BUTTON_1" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R8._UNBOUND_BUTTON_1" style="cursor:pointer;" class="yossiButton " >Download</button></td>
+
+	<td id="YOSSISHIUR.TD.R8.WEEK" class="yossiDataTD"  ><span id="YOSSISHIUR.V.R8.WEEK">???? ???&quot;?</span><input type="hidden" name="V.R8.ID" id="YOSSISHIUR.V.R8.ID" value="9" />
+
+<input type="hidden" name="V.R8.MP3FILENAME" id="YOSSISHIUR.V.R8.MP3FILENAME" value="EY  # 08.MP3" />
+
+ <span id="YOSSISHIUR.V.R8.TYPE">??? ????</span> <span id="YOSSISHIUR.V.R8.MESECHTA">?????</span> <span id="YOSSISHIUR.V.R8.DAF">? ?&quot;?</span> <span id="YOSSISHIUR.V.R8.SMALLDESCRIPTION">???? ?????? ?????? ???? ?????? ????? ?????? ?????? ??? ???? ????? ?????, ???&quot;? ????? ????...</span></td>
+
+</tr>
+
+<tr>
+
+	<td class="yossiSeparatorTD" colspan="4" style="padding: 0px;" ></td>
+
+</tr>
+
+</tbody>
+
+<tbody id="YOSSISHIUR.R9"  >
+
+<tr>
+
+<!--Start:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R9.__SYSTEM_ROWSELECTCOLUMN" rowspan="1" class="yossiDataTD " ><img  src="css/yossi/RowMarkerOff.png" style="visibility:hidden;" id="YOSSISHIUR.R9.__ROWSELECTOR"  /></td>
+
+<!--End:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R9._UNBOUND_BUTTON_2" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R9._UNBOUND_BUTTON_2" style="cursor:pointer;" class="yossiButton " >Play</button></td>
+
+	<td id="YOSSISHIUR.TD.R9._UNBOUND_BUTTON_1" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R9._UNBOUND_BUTTON_1" style="cursor:pointer;" class="yossiButton " >Download</button></td>
+
+	<td id="YOSSISHIUR.TD.R9.WEEK" class="yossiDataTD"  ><span id="YOSSISHIUR.V.R9.WEEK">??? ???&quot;?</span><input type="hidden" name="V.R9.ID" id="YOSSISHIUR.V.R9.ID" value="10" />
+
+<input type="hidden" name="V.R9.MP3FILENAME" id="YOSSISHIUR.V.R9.MP3FILENAME" value="EY  # 09.MP3" />
+
+ <span id="YOSSISHIUR.V.R9.TYPE">??? ????</span> <span id="YOSSISHIUR.V.R9.MESECHTA">?????</span> <span id="YOSSISHIUR.V.R9.DAF">? ?&quot;?</span> <span id="YOSSISHIUR.V.R9.SMALLDESCRIPTION">??? ????: ????? ?????? ??? ?????, ???? ???. ?&#039; ??? ????: ???�</span></td>
+
+</tr>
+
+<tr>
+
+	<td class="yossiSeparatorTD" colspan="4" style="padding: 0px;" ></td>
+
+</tr>
+
+</tbody>
+
+<tbody id="YOSSISHIUR.R10"  >
+
+<tr>
+
+<!--Start:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R10.__SYSTEM_ROWSELECTCOLUMN" rowspan="1" class="yossiDataTD " ><img  src="css/yossi/RowMarkerOff.png" style="visibility:hidden;" id="YOSSISHIUR.R10.__ROWSELECTOR"  /></td>
+
+<!--End:RowSelector-->
+
+	<td id="YOSSISHIUR.TD.R10._UNBOUND_BUTTON_2" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R10._UNBOUND_BUTTON_2" style="cursor:pointer;" class="yossiButton " >Play</button></td>
+
+	<td id="YOSSISHIUR.TD.R10._UNBOUND_BUTTON_1" class="yossiDataTD"  ><button id="YOSSISHIUR.V.R10._UNBOUND_BUTTON_1" style="cursor:pointer;" class="yossiButton " >Download</button></td>
+
+	<td id="YOSSISHIUR.TD.R10.WEEK" class="yossiDataTD"  ><span id="YOSSISHIUR.V.R10.WEEK">???? ???&quot;?</span><input type="hidden" name="V.R10.ID" id="YOSSISHIUR.V.R10.ID" value="11" />
+
+<input type="hidden" name="V.R10.MP3FILENAME" id="YOSSISHIUR.V.R10.MP3FILENAME" value="EY  # 10.MP3" />
+
+ <span id="YOSSISHIUR.V.R10.TYPE">??? ????</span> <span id="YOSSISHIUR.V.R10.MESECHTA">?????</span> <span id="YOSSISHIUR.V.R10.DAF">? ?&quot;?</span> <span id="YOSSISHIUR.V.R10.SMALLDESCRIPTION">?&quot;?: ?&#039; ?????? ??? ?????, ???? ???. ?&#039; ??? ????: ?&#039;... ????? ????? ????????.  ??? ???? ?&quot;? ??? ????? ??????</span></td>
+
+</tr>
+
+<tr>
+
+	<td class="yossiSeparatorTD" colspan="4" style="padding: 0px;" ></td>
+
+</tr>
+
+</tbody>
+
+
+
+
+
+
+
+
+
+
+
+<tr>
+
+	<td colspan="4" class="yossiFooterTD" nowrap="nowrap" align="Left" >
+
+	
+
+	
+
+First
+
+Prev
+
+1
+
+<a 	class="yossiNavigatorLink"   href="#"  onclick="YOSSISHIUR_GridObj.pageNavigate('2'); return false;" >2</a> 
+
+<a 	class="yossiNavigatorLink"   href="#"  onclick="YOSSISHIUR_GridObj.pageNavigate('3'); return false;" >3</a> 
+
+<a 	class="yossiNavigatorLink"   href="#"  onclick="YOSSISHIUR_GridObj.pageNavigate('4'); return false;" >4</a> 
+
+<a 	class="yossiNavigatorLink"   href="#"  onclick="YOSSISHIUR_GridObj.pageNavigate('5'); return false;" >5</a> 
+
+<a 	class="yossiNavigatorLink"   href="#"  onclick="YOSSISHIUR_GridObj.pageNavigate('6'); return false;" >6</a> 
+
+<a 	class="yossiNavigatorLink"   href="#"  onclick="YOSSISHIUR_GridObj.pageNavigate('7'); return false;" >7</a> 
+
+<a 	class="yossiNavigatorLink"   href="#"  onclick="YOSSISHIUR_GridObj.pageNavigate('8'); return false;" >8</a> 
+
+<a 	class="yossiNavigatorLink"   href="#"  onclick="YOSSISHIUR_GridObj.pageNavigate('9'); return false;" >9</a> 
+
+<a 	class="yossiNavigatorLink"   href="#"  onclick="YOSSISHIUR_GridObj.pageNavigate('10'); return false;" >10</a> 
+
+ of 28
+
+<a 	class="yossiNavigatorLink" 
+
+	href="#" 
+
+	onclick="YOSSISHIUR_GridObj.pageNavigate('next'); return false;"
+
+	>Next</a>
+
+
+
+<a 	class="yossiNavigatorLink" 
+
+	href="#" 
+
+	onclick="YOSSISHIUR_GridObj.pageNavigate('last'); return false;"
+
+	>Last</a>
+
+ 
+
+	&nbsp;&nbsp;<select A5HarvestIgnore="true" id="YOSSISHIUR_ROWSPERPAGE_BOTTOM"  class="yossiSelect"  onchange="YOSSISHIUR_GridObj.setRowsPerPage($gvs(this))">
+
+<option value="1">1</option>
+
+<option value="2">2</option>
+
+<option value="5">5</option>
+
+<option value="10" selected="selected" >10</option>
+
+<option value="25">25</option>
+
+<option value="50">50</option>
+
+<option value="75">75</option>
+
+<option value="100">100</option>
+
+
+
+</select> Records per page&nbsp;&nbsp;&nbsp;
+
+	
+
+	&nbsp;&nbsp;
+
+	&nbsp;&nbsp;
+
+	</td>
+
+</tr>
+
+
+
+
+
+</table>
+
+
+
+
+
+</div>
+
+
+
+<script type="text/javascript" language="javascript">
+
+var YOSSISHIUR_GridObj = new A5.GridComponentHelper('YOSSISHIUR',{
+
+		ajaxURL: '/hhrbe/__a5RunGrid.a5w?__pageName=yossiShiur.a5w&__gridFilename=YossiShiur&__alias=YOSSISHIUR&__unsaved=no',
+
+gridColumnInfo: [{name: 'ID' , hlp: '',  displayFormat: 'plain',  type: 'label,label', dataType: 'n', qbe: {operator: '', exclude: false, andOr: 'AND'} },{name: 'MP3FILENAME' , hlp: '',  displayFormat: 'plain',  type: 'label,label', dataType: 'c', qbe: {operator: '', exclude: false, andOr: 'AND'} },{name: 'WEEK' , hlp: '',  displayFormat: 'plain',  type: 'label,label', dataType: 'c', qbe: {operator: '', exclude: false, andOr: 'AND'} },{name: 'TYPE' , hlp: '',  displayFormat: 'plain',  type: 'label,label', dataType: 'c', qbe: {operator: '', exclude: false, andOr: 'AND'} },{name: 'MESECHTA' , hlp: '',  displayFormat: 'plain',  type: 'label,label', dataType: 'c', qbe: {operator: '', exclude: false, andOr: 'AND'} },{name: 'DAF' , hlp: '',  displayFormat: 'plain',  type: 'label,label', dataType: 'c', qbe: {operator: '', exclude: false, andOr: 'AND'} },{name: 'SMALLDESCRIPTION' , hlp: '',  displayFormat: 'plain',  type: 'label,label', dataType: 'c', qbe: {operator: '', exclude: false, andOr: 'AND'} }],
+
+		searchColumnInfo: [{name: 'SMALLDESCRIPTION', type: 'input,label', dataType: 'c', isRange: false  }],
+
+		_embeddedMode: false,
+
+		LCSName: '',
+
+		suppressTitlesIfNoRecords: false,
+
+		rowRefreshOnFocus: true,
+
+		rowRefreshOnDirty: true,
+
+		detailViewRefreshOnDirty: true,
+
+		rowHoverClassName: 'yossiRowHover',
+
+		rowSelectedClassName: 'yossiRowSelected',
+
+		rowOnDblClick: ''  ,
+
+		rowEditMode: '' , 
+
+		searchPartIsKeyword: false,
+
+		detailViewEditMode: '',
+
+		detailViewDataPreFetch: false,
+
+		detailViewScrollIntoView: false,
+
+		detailViewPosition: '',
+
+		hideGridWhenDetailViewIsShown: false,
+
+		checkBoxSelector: 'singlePage',
+
+		hasRowSelectorIcon: true,
+
+		rowSelectorIconOn: 'css/yossi/RowMarkerOn.png',
+
+		rowSelectorIconOff: '',
+
+		newRowSelectorIconOn: 'images/$$code.action.edit.png.a5image',
+
+		newRowSelectorIconOff: 'images/$$generic.glint.png.a5image',
+
+		rowExpandIcon: 'images/addItemSmall.png.a5image',
+
+		rowCollapseIcon: 'images/removeitemsmall.png.a5image',
+
+		rowExpandMode: 'multiple',
+
+		rowExpandAutoRefresh: false,
+
+		rowExpandWorkingMessage: '',
+
+		lookupGridFieldsToReturn: [],
+
+		lookupFieldsToFillin: {},
+
+		dropDownLookupWindows: [],
+
+		lookupFieldsResetFilter: [],
+
+		lookupFieldsWorkingMessages: {},
+
+		lookupDynamicFilters: [],
+
+		linkedObjects: [],
+
+		embeddedSearchPart: false,
+
+		embedSearchPartStyle: 'm',
+
+		animateSearchPart: '',
+
+		parentGridAlias: '',
+
+		datePickerMonthNames: ['January','February','March','April','May','June','July','August','September','October','November','December'],
+
+		datePickerDayNames: ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'],
+
+		datePickerTodayButton: 'Today',
+
+		datePickerCloseButton: 'Close',
+
+		datePickerFirstDayOfWeek: 1,
+
+		banding: {
+
+			enabled: false,
+
+			evenRowCount: 1,
+
+			oddRowCount: 1,
+
+			evenRowClassName: 'yossiAltDataTD',
+
+			oddRowClassName: 'yossiDataTD'
+
+		},
+
+		messages: {
+
+			deleteRow: '<div style="padding: 10px;" >\n	<img 	src="images/$sys_question.png.a5image" \n			style="margin-right: 5px; float: left;"/>\n Are you sure you want to delete this record?\n			 <br style="clear: both;" />\n</div>\n',
+
+			cancelEditRow:  '<div style="padding: 10px;" >\n<img 	src="images/$$large.generic.lightBulb.png.a5image" \n		style="margin-right: 5px; float: left;"/>\n Are you sure you want to cancel edits to this record?\n		<br style="clear: both;" />\n</div>\n',
+
+			dirtyRecordWarning: '<div style="padding: 10px;" >\n<img 	src="images/$$large.generic.lightBulb.png.a5image" \n		style="margin-right: 5px; float: left;"/>\n You must first save or cancel your changes.	\n		<br style="clear: both;" />\n</div>\n',
+
+			undoEditsWarning: '<div style="padding: 10px;" >\n<img 	src="images/$$large.generic.lightBulb.png.a5image" \n		style="margin-right: 5px; float: left;"/>\n Are you sure you want to undo edits to this record?\n		<br style="clear: both;" />\n</div>\n',
+
+			undoAllEditsWarning: '<div style="padding: 10px;" >\n<img 	src="images/$$large.generic.lightBulb.png.a5image" \n		style="margin-right: 5px; float: left;"/>\n Are you sure you want to undo edits to all records?\n		<br style="clear: both;" />\n</div>\n',
+
+			t_deleteRow: 'Delete Record',
+
+			t_cancelEditRow:  'Cancel Edit',
+
+			t_dirtyRecordWarning: 'Notice',
+
+			t_undoEditsWarning: 'Undo Edit',
+
+			t_undoAllEditsWarning: 'Undo Edit'
+
+		}, 
+
+		rowErrors: {
+
+				showMessageBox: false,
+
+				messageBoxTitle: 'Error',
+
+				style: 'color: red; width: 6in; height: 2in;'
+
+		},
+
+		fieldErrors: {
+
+			type: 'tip', 
+
+			className: 'errorTip',
+
+			inputClassName: 'yossiInputError',
+
+			icon: 'images/$$generic.error.png.a5image',
+
+			global: {
+
+				contId: 'YOSSISHIUR.GRID_PART.GLOBAL_ERRORS',
+
+				hoverClassName: 'errorTextHighlight',
+
+				hoverInputClassName: 'errorInputHighlight'
+
+			}
+
+		},
+
+		onDetailViewNewRecord: 0,
+
+		_readOnly: true
+
+
+
+	})
+
+
+
+
+
+
+
+YOSSISHIUR_GridObj._executeEvent('onObjectInitialize',{});
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<iframe src="" style="display: none;" id="YOSSISHIUR.__IFRAME1"></iframe>
+
+
+
+<div id="YOSSISHIUR.DEBUGINFO"></div>
+
+<script type="text/javascript" language="javascript">
+
+YOSSISHIUR_GridObj._setCountInfo([1,28,10,10,1]);YOSSISHIUR_GridObj._rowsInGrid = 10;
+
+YOSSISHIUR_GridObj._newRowsInGrid = 0;
+
+YOSSISHIUR_GridObj._totalRecordsInGrid = 273;
+
+
+
+YOSSISHIUR_GridObj._setRowKeys([['2'],['3'],['4'],['5'],['6'],['7'],['8'],['9'],['10'],['11']]);
+
+YOSSISHIUR_GridObj._rowsInGrid = 10;
+
+YOSSISHIUR_GridObj._gridFilter = '';
+
+YOSSISHIUR_GridObj._gridOrder = '';
+
+YOSSISHIUR_GridObj._gridArguments = '';
+
+YOSSISHIUR_GridObj._gridDBType = 'sql';
+
+
+
+YOSSISHIUR_GridObj.setSelectedRow(1,false);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$e.add(window,'load',function() {});
+
+
+
+
+
+
+
+
+
+YOSSISHIUR_GridObj._QS='';
+
+A5.msgBox.buttons.ok = {html: 'OK'};
+
+A5.msgBox.buttons.cancel = {html: 'Cancel'};
+
+
+
+YOSSISHIUR_GridObj.setVariables({});
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+<script>
+
+
+
+
+
+YOSSISHIUR_GridObj.prepareGrid();
+
+YOSSISHIUR_GridObj.prepareSearch();
+
+YOSSISHIUR_GridObj._executeEvent('onGridInitializeComplete',{});
+
+
+
+</script></td>
+
+	</div>
+
+	
+
+ </div>
+    </div>
+    <div id="footer">
+        <p>Heichal Hatfilah: 1650 56th St. Brooklyn, New York 11204
+        &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        Mailing address: 1171 57th St. Brooklyn, New York 11219
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span><a href="http://www.gcnymarketing.com" target="_blank">Website by: <span>GCNY</span></a></span>
+        </p>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+	<script>!window.jQuery && document.write('<script src="javascript/jquery-1.4.3.js"><\/script>')</script>
+    <script src="javascript/cufon-yui.js"></script>
+    <script src="javascript/hadasanewregular-cufon.js"></script>
+    <script src="javascript/template.js"></script>
+</body>
+</html>

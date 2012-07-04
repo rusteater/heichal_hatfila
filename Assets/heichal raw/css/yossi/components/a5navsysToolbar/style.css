@@ -1,0 +1,292 @@
+.yossiNavSysTBSH{
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+
+}
+
+.yossiNavSysTBSHF{
+font-family: tahoma, verdana, arial, helvetica;
+font-size: 10pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #5b69ae;
+padding: 2px;
+
+}
+
+.yossiNavSysTBSHM{
+font-family: tahoma, verdana, arial, helvetica;
+font-size: 10pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #5b69ae;
+padding: 2px;
+padding-left: 0px;
+
+}
+
+.yossiNavSysTBSHL{
+font-family: tahoma, verdana, arial, helvetica;
+font-size: 10pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #5b69ae;
+padding: 2px;
+padding-left: 0px;
+
+}
+
+a.yossiNavSysTBSHButtonOff, a.yossiNavSysTBSHButtonOff:visited{
+font-family: tahoma, verdana, arial, helvetica;
+font-size: 10pt;
+color: #ffffff;
+text-decoration: none;
+padding: 2px;
+
+}
+
+a.yossiNavSysTBSHButtonOff:hover, a.yossiNavSysTBSHButtonOff:active{
+border-width: 1px;
+border-style: solid;
+border-color: #000000;
+background-color: #a2acd2;
+font-size: 10pt;
+font-family: tahoma, verdana, arial, helvetica;
+font-weight: bold;
+padding: 1px;
+
+}
+
+a.yossiNavSysTBSHButtonOn, a.yossiNavSysTBSHButtonOn:visited{
+border-width: 1px;
+border-style: solid;
+border-color: #000000;
+background-color: #a2acd2;
+font-size: 10pt;
+font-family: tahoma, verdana, arial, helvetica;
+font-weight: bold;
+padding: 1px;
+color: #ffffff;
+text-decoration: none;
+
+}
+
+a.yossiNavSysTBSHButtonOn:hover, a.yossiNavSysTBSHButtonOn:active{
+font-size: 10pt;
+color: #ffffff;
+text-decoration: none;
+
+}
+
+a.yossiNavSysTBSHButtonOff .yossiNavSysTBSHCas{
+background-image: url(casdown.png);
+background-position: right center;
+background-repeat: no-repeat;
+padding-right: 17px;
+
+}
+
+a.yossiNavSysTBSHButtonOff:hover .yossiNavSysTBSHCas{
+
+}
+
+a.yossiNavSysTBSHButtonOn .yossiNavSysTBSHCas{
+background-image: url(casdown.png);
+background-position: right center;
+background-repeat: no-repeat;
+padding-right: 17px;
+
+}
+
+a.yossiNavSysTBSHButtonOn:hover .yossiNavSysTBSHCas{
+
+}
+
+.yossiNavSysTBSHMiscCont{
+font-family: tahoma, verdana, arial, helvetica;
+padding: 2px;
+
+}
+
+.yossiNavSysTBSV{
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+
+}
+
+.yossiNavSysTBSVF{
+font-family: tahoma, verdana, arial, helvetica;
+font-size: 10pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #5b69ae;
+padding: 2px;
+
+}
+
+.yossiNavSysTBSVM{
+font-family: tahoma, verdana, arial, helvetica;
+font-size: 10pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #5b69ae;
+padding: 2px;
+padding-top: 0px;
+
+}
+
+.yossiNavSysTBSVL{
+font-family: tahoma, verdana, arial, helvetica;
+font-size: 10pt;
+color: #ffffff;
+font-weight: bold;
+background-color: #5b69ae;
+padding: 2px;
+padding-top: 0px;
+
+}
+
+a.yossiNavSysTBSVButtonOff, a.yossiNavSysTBSVButtonOff:visited{
+font-family: tahoma, verdana, arial, helvetica;
+font-size: 10pt;
+color: #ffffff;
+text-decoration: none;
+padding: 2px;
+
+}
+
+a.yossiNavSysTBSVButtonOff:hover, a.yossiNavSysTBSVButtonOff:active{
+border-width: 1px;
+border-style: solid;
+border-color: #000000;
+background-color: #a2acd2;
+font-size: 10pt;
+font-family: tahoma, verdana, arial, helvetica;
+font-weight: bold;
+padding: 1px;
+
+}
+
+a.yossiNavSysTBSVButtonOn, a.yossiNavSysTBSVButtonOn:visited{
+border-width: 1px;
+border-style: solid;
+border-color: #000000;
+background-color: #a2acd2;
+font-size: 10pt;
+font-family: tahoma, verdana, arial, helvetica;
+font-weight: bold;
+padding: 1px;
+color: #ffffff;
+text-decoration: none;
+
+}
+
+a.yossiNavSysTBSVButtonOn:hover, a.yossiNavSysTBSVButtonOn:active{
+font-size: 10pt;
+color: #ffffff;
+text-decoration: none;
+
+}
+
+a.yossiNavSysTBSVButtonOff .yossiNavSysTBSVCas{
+background-image: url(casover.png);
+background-position: right center;
+background-repeat: no-repeat;
+padding-right: 17px;
+
+}
+
+a.yossiNavSysTBSVButtonOff:hover .yossiNavSysTBSVCas{
+
+}
+
+a.yossiNavSysTBSVButtonOn .yossiNavSysTBSVCas{
+background-image: url(casover.png);
+background-position: right center;
+background-repeat: no-repeat;
+padding-right: 17px;
+
+}
+
+a.yossiNavSysTBSVButtonOn:hover .yossiNavSysTBSVCas{
+
+}
+
+.yossiNavSysTBSVMiscCont{
+font-family: tahoma, verdana, arial, helvetica;
+padding: 2px;
+
+}
+
+.yossiNavSysTBMenuCont{
+border-style: solid;
+border-color: #000000;
+border-width: 1px;
+
+}
+
+.yossiNavSysTBMenu{
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+
+}
+
+.yossiNavSysTBMenuOff{
+font-family: tahoma, verdana, arial, helvetica;
+font-size: 10pt;
+color: #000000;
+background-color: #f7f7f7;
+border-bottom-style: dotted;
+border-bottom-width: 1px;
+border-bottom-color: #a7aedd;
+cursor: default;
+padding: 1px;
+
+}
+
+.yossiNavSysTBMenuOn{
+font-family: tahoma, verdana, arial, helvetica;
+font-size: 10pt;
+color: #000000;
+background-color: #ffffff;
+border-bottom-style: dotted;
+border-bottom-width: 1px;
+border-bottom-color: #a7aedd;
+cursor: default;
+padding: 1px;
+
+}
+
+.yossiNavSysTBMenuOff .yossiNavSysTBMenuCas{
+background-image: url(casover.png);
+background-position: right center;
+background-repeat: no-repeat;
+cursor: default;
+padding-right: 17px;
+
+}
+
+.yossiNavSysTBMenuOn .yossiNavSysTBMenuCas{
+background-image: url(casover.png);
+background-position: right center;
+background-repeat: no-repeat;
+cursor: default;
+padding-right: 17px;
+
+}
+
+.yossiNavSysTBMenuSeparator{
+height: 3px;
+font-size: 0pt;
+color: #000000;
+background-color: #f7f7f7;
+border-bottom-style: dotted;
+border-bottom-width: 1px;
+border-bottom-color: #a7aedd;
+padding-left: 1px;
+padding-right: 1px;
+
+}

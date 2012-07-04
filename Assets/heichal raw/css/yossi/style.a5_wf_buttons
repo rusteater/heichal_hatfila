@@ -1,0 +1,678 @@
+<images<first_on=<<%str%
+17 17 16 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+g c 12*C 87*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+n c 12*D 87*B
+s c 37*A 62*B
+.XXXXXXXXXXXXXXX.
+XcccccccccccccccX
+XbbbbbbbbbbbbbbbX
+XCCCCCCCCCCCCCCCX
+XbbbbbbbAbbbbbbbX
+XddddddAAdddddddX
+XeeeeeAsAeeeAeeeX
+XggggAssAggAAgggX
+XBBBAsssABAsABBBX
+XBBBBAssABBAABBBX
+XnnnnnAsAnnnAnnnX
+XmmmmmmAAmmmmmmmX
+XlllllllAlllllllX
+XlllllllllllllllX
+XkkkkkkkkkkkkkkkX
+XkkkkkkkkkkkkkkkX
+.XXXXXXXXXXXXXXX.%str%>
+<prev_on=<<%str%
+17 17 16 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+g c 12*C 87*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+n c 12*D 87*B
+s c 37*A 62*B
+.XXXXXXXXXXXXXXX.
+XcccccccccccccccX
+XbbbbbbbbbbbbbbbX
+XCCCCCCCCCCCCCCCX
+XbbbbbbbbAbbbbbbX
+XdddddddAAddddddX
+XeeeeeeAsAeeeeeeX
+XgggggAssAggggggX
+XBBBBAsssABBBBBBX
+XBBBBBAssABBBBBBX
+XnnnnnnAsAnnnnnnX
+XmmmmmmmAAmmmmmmX
+XllllllllAllllllX
+XlllllllllllllllX
+XkkkkkkkkkkkkkkkX
+XkkkkkkkkkkkkkkkX
+.XXXXXXXXXXXXXXX.%str%>
+<next_on=<<%str%
+17 17 16 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+g c 12*C 87*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+n c 12*D 87*B
+s c 37*A 62*B
+.XXXXXXXXXXXXXXX.
+XcccccccccccccccX
+XbbbbbbbbbbbbbbbX
+XCCCCCCCCCCCCCCCX
+XbbbbbbAbbbbbbbbX
+XddddddAAdddddddX
+XeeeeeeAsAeeeeeeX
+XggggggAssAgggggX
+XBBBBBBAsssABBBBX
+XBBBBBBAssABBBBBX
+XnnnnnnAsAnnnnnnX
+XmmmmmmAAmmmmmmmX
+XllllllAllllllllX
+XlllllllllllllllX
+XkkkkkkkkkkkkkkkX
+XkkkkkkkkkkkkkkkX
+.XXXXXXXXXXXXXXX.%str%>
+<last_on=<<%str%
+17 17 16 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+g c 12*C 87*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+n c 12*D 87*B
+s c 37*A 62*B
+.XXXXXXXXXXXXXXX.
+XcccccccccccccccX
+XbbbbbbbbbbbbbbbX
+XCCCCCCCCCCCCCCCX
+XbbbbbbbAbbbbbbbX
+XdddddddAAddddddX
+XeeeAeeeAsAeeeeeX
+XgggAAggAssAggggX
+XBBBAsABAsssABBBX
+XBBBAABBAssABBBBX
+XnnnAnnnAsAnnnnnX
+XmmmmmmmAAmmmmmmX
+XlllllllAlllllllX
+XlllllllllllllllX
+XkkkkkkkkkkkkkkkX
+XkkkkkkkkkkkkkkkX
+.XXXXXXXXXXXXXXX.%str%>
+<first_off=<<%str%
+17 17 16 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+g c 12*C 87*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+n c 12*D 87*B
+s c 37*A 62*B
+.XXXXXXXXXXXXXXX.
+XcccccccccccccccX
+XbbbbbbbbbbbbbbbX
+XCCCCCCCCCCCCCCCX
+XbbbbbbbAbbbbbbbX
+XddddddAAdddddddX
+XeeeeeAsAeeeAeeeX
+XggggAssAggAAgggX
+XBBBAsssABAsABBBX
+XBBBBAssABBAABBBX
+XnnnnnAsAnnnAnnnX
+XmmmmmmAAmmmmmmmX
+XlllllllAlllllllX
+XlllllllllllllllX
+XkkkkkkkkkkkkkkkX
+XkkkkkkkkkkkkkkkX
+.XXXXXXXXXXXXXXX.%str%>
+<prev_off=<<%str%
+17 17 16 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+g c 12*C 87*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+n c 12*D 87*B
+s c 37*A 62*B
+.XXXXXXXXXXXXXXX.
+XcccccccccccccccX
+XbbbbbbbbbbbbbbbX
+XCCCCCCCCCCCCCCCX
+XbbbbbbbbAbbbbbbX
+XdddddddAAddddddX
+XeeeeeeAsAeeeeeeX
+XgggggAssAggggggX
+XBBBBAsssABBBBBBX
+XBBBBBAssABBBBBBX
+XnnnnnnAsAnnnnnnX
+XmmmmmmmAAmmmmmmX
+XllllllllAllllllX
+XlllllllllllllllX
+XkkkkkkkkkkkkkkkX
+XkkkkkkkkkkkkkkkX
+.XXXXXXXXXXXXXXX.%str%>
+<next_off=<<%str%
+17 17 16 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+g c 12*C 87*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+n c 12*D 87*B
+s c 37*A 62*B
+.XXXXXXXXXXXXXXX.
+XcccccccccccccccX
+XbbbbbbbbbbbbbbbX
+XCCCCCCCCCCCCCCCX
+XbbbbbbAbbbbbbbbX
+XddddddAAdddddddX
+XeeeeeeAsAeeeeeeX
+XggggggAssAgggggX
+XBBBBBBAsssABBBBX
+XBBBBBBAssABBBBBX
+XnnnnnnAsAnnnnnnX
+XmmmmmmAAmmmmmmmX
+XllllllAllllllllX
+XlllllllllllllllX
+XkkkkkkkkkkkkkkkX
+XkkkkkkkkkkkkkkkX
+.XXXXXXXXXXXXXXX.%str%>
+<last_off=<<%str%
+17 17 16 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+g c 12*C 87*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+n c 12*D 87*B
+s c 37*A 62*B
+.XXXXXXXXXXXXXXX.
+XcccccccccccccccX
+XbbbbbbbbbbbbbbbX
+XCCCCCCCCCCCCCCCX
+XbbbbbbbAbbbbbbbX
+XdddddddAAddddddX
+XeeeAeeeAsAeeeeeX
+XgggAAggAssAggggX
+XBBBAsABAsssABBBX
+XBBBAABBAssABBBBX
+XnnnAnnnAsAnnnnnX
+XmmmmmmmAAmmmmmmX
+XlllllllAlllllllX
+XlllllllllllllllX
+XkkkkkkkkkkkkkkkX
+XkkkkkkkkkkkkkkkX
+.XXXXXXXXXXXXXXX.%str%>
+<prev_year=<<%str%
+17 17 16 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+g c 12*C 87*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+n c 12*D 87*B
+s c 37*A 62*B
+.XXXXXXXXXXXXXXX.
+XcccccccccccccccX
+XbbbbbbbbbbbbbbbX
+XCCCCCCCCCCCCCCCX
+XbbbbbbbAbbbbbbbX
+XddddddAAdddddddX
+XeeeeeAsAeeeAeeeX
+XggggAssAggAAgggX
+XBBBAsssABAsABBBX
+XBBBBAssABBAABBBX
+XnnnnnAsAnnnAnnnX
+XmmmmmmAAmmmmmmmX
+XlllllllAlllllllX
+XlllllllllllllllX
+XkkkkkkkkkkkkkkkX
+XkkkkkkkkkkkkkkkX
+.XXXXXXXXXXXXXXX.%str%>
+<prev_month=<<%str%
+17 17 16 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+g c 12*C 87*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+n c 12*D 87*B
+s c 37*A 62*B
+.XXXXXXXXXXXXXXX.
+XcccccccccccccccX
+XbbbbbbbbbbbbbbbX
+XCCCCCCCCCCCCCCCX
+XbbbbbbbbAbbbbbbX
+XdddddddAAddddddX
+XeeeeeeAsAeeeeeeX
+XgggggAssAggggggX
+XBBBBAsssABBBBBBX
+XBBBBBAssABBBBBBX
+XnnnnnnAsAnnnnnnX
+XmmmmmmmAAmmmmmmX
+XllllllllAllllllX
+XlllllllllllllllX
+XkkkkkkkkkkkkkkkX
+XkkkkkkkkkkkkkkkX
+.XXXXXXXXXXXXXXX.%str%>
+<next_month=<<%str%
+17 17 16 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+g c 12*C 87*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+n c 12*D 87*B
+s c 37*A 62*B
+.XXXXXXXXXXXXXXX.
+XcccccccccccccccX
+XbbbbbbbbbbbbbbbX
+XCCCCCCCCCCCCCCCX
+XbbbbbbAbbbbbbbbX
+XddddddAAdddddddX
+XeeeeeeAsAeeeeeeX
+XggggggAssAgggggX
+XBBBBBBAsssABBBBX
+XBBBBBBAssABBBBBX
+XnnnnnnAsAnnnnnnX
+XmmmmmmAAmmmmmmmX
+XllllllAllllllllX
+XlllllllllllllllX
+XkkkkkkkkkkkkkkkX
+XkkkkkkkkkkkkkkkX
+.XXXXXXXXXXXXXXX.%str%>
+<next_year=<<%str%
+17 17 16 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+g c 12*C 87*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+n c 12*D 87*B
+s c 37*A 62*B
+.XXXXXXXXXXXXXXX.
+XcccccccccccccccX
+XbbbbbbbbbbbbbbbX
+XCCCCCCCCCCCCCCCX
+XbbbbbbbAbbbbbbbX
+XdddddddAAddddddX
+XeeeAeeeAsAeeeeeX
+XgggAAggAssAggggX
+XBBBAsABAsssABBBX
+XBBBAABBAssABBBBX
+XnnnAnnnAsAnnnnnX
+XmmmmmmmAAmmmmmmX
+XlllllllAlllllllX
+XlllllllllllllllX
+XkkkkkkkkkkkkkkkX
+XkkkkkkkkkkkkkkkX
+.XXXXXXXXXXXXXXX.%str%>
+<asc_on=<<%str%
+13 13 14 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+s c 37*A 62*B
+.XXXXXXXXXXX.
+XcccccccccccX
+XbbbbbbbbbbbX
+XCCCCCCCCCCCX
+XbbbbbAbbbbbX
+XddddAsAddddX
+XeeeAsssAeeeX
+XBBAAAAAAABBX
+XmmmmmmmmmmmX
+XlllllllllllX
+XkkkkkkkkkkkX
+XkkkkkkkkkkkX
+.XXXXXXXXXXX.%str%>
+<desc_on=<<%str%
+13 13 14 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+s c 37*A 62*B
+.XXXXXXXXXXX.
+XcccccccccccX
+XbbbbbbbbbbbX
+XCCCCCCCCCCCX
+XbbbbbbbbbbbX
+XddAAAAAAAddX
+XeeeAsssAeeeX
+XBBBBAsABBBBX
+XmmmmmAmmmmmX
+XlllllllllllX
+XkkkkkkkkkkkX
+XkkkkkkkkkkkX
+.XXXXXXXXXXX.%str%>
+<asc_off=<<%str%
+13 13 14 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+s c 37*A 62*B
+.XXXXXXXXXXX.
+XcccccccccccX
+XbbbbbbbbbbbX
+XCCCCCCCCCCCX
+XbbbbbAbbbbbX
+XddddAsAddddX
+XeeeAsssAeeeX
+XBBAAAAAAABBX
+XmmmmmmmmmmmX
+XlllllllllllX
+XkkkkkkkkkkkX
+XkkkkkkkkkkkX
+.XXXXXXXXXXX.%str%>
+<desc_off=<<%str%
+13 13 14 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+s c 37*A 62*B
+.XXXXXXXXXXX.
+XcccccccccccX
+XbbbbbbbbbbbX
+XCCCCCCCCCCCX
+XbbbbbbbbbbbX
+XddAAAAAAAddX
+XeeeAsssAeeeX
+XBBBBAsABBBBX
+XmmmmmAmmmmmX
+XlllllllllllX
+XkkkkkkkkkkkX
+XkkkkkkkkkkkX
+.XXXXXXXXXXX.%str%>
+<marker_on=<<%str%
+13 13 14 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+s c 37*A 62*B
+.XXXXXXXXXXX.
+XcccccccccccX
+XbbbbbbbbbbbX
+XCCCCACCCCCCX
+XbbbbAAbbbbbX
+XddddAsAddddX
+XeeeeAssAeeeX
+XBBBBAsABBBBX
+XmmmmAAmmmmmX
+XllllAllllllX
+XkkkkkkkkkkkX
+XkkkkkkkkkkkX
+.XXXXXXXXXXX.%str%>
+<marker_off=<<%str%
+13 13 14 1
+A c {ARROW}
+B c {BACKGROUND}
+X c {LINE}
+C c {HILITE}
+D c {SHADOW}
+. c <Transparent>
+b c 75*C 25*B
+c c 62*C 37*B
+d c 50*C 50*B
+e c 37*C 62*B
+k c 50*D 50*B
+l c 37*D 62*B
+m c 25*D 75*B
+s c 37*A 62*B
+.XXXXXXXXXXX.
+XcccccccccccX
+XbbbbbbbbbbbX
+XCCCCACCCCCCX
+XbbbbAAbbbbbX
+XddddAsAddddX
+XeeeeAssAeeeX
+XBBBBAsABBBBX
+XmmmmAAmmmmmX
+XllllAllllllX
+XkkkkkkkkkkkX
+XkkkkkkkkkkkX
+.XXXXXXXXXXX.%str%>
+<nav_on_style_num=8>
+<nav_off_style_num=8>
+<cal_style_num=8>
+<sort_style_num=8>
+<marker_style_num=8>
+<nav_on_style_colors=<<%str%
+background
+line
+arrow
+hilite
+shadow
+%str%>
+<nav_off_style_colors=<<%str%
+background
+line
+arrow
+hilite
+shadow
+%str%>
+<cal_style_colors=<<%str%
+background
+line
+arrow
+hilite
+shadow
+%str%>
+<sort_style_colors=<<%str%
+background
+line
+arrow
+hilite
+shadow
+%str%>
+<marker_style_colors=<<%str%
+background
+line
+arrow
+hilite
+shadow
+%str%>
+>
+<colors<nav_on<line="#000000">
+<arrow="#000000">
+<back="#a0a0a0">
+<hilite="#ffffff">
+<shadow="#ffffff">
+>
+<nav_off<line="#000000">
+<arrow="#808080">
+<back="#a0a0a0">
+<hilite="#ffffff">
+<shadow="#ffffff">
+>
+<cal<line="#000000">
+<arrow="#000000">
+<back="#a0a0a0">
+<hilite="#ffffff">
+<shadow="#ffffff">
+>
+<sort_on<line="#000000">
+<arrow="#000000">
+<back="#a0a0a0">
+<hilite="#ffffff">
+<shadow="#ffffff">
+>
+<sort_off<line="#000000">
+<arrow="#808080">
+<back="#a0a0a0">
+<hilite="#ffffff">
+<shadow="#ffffff">
+>
+<marker_on<line="#000000">
+<arrow="#000000">
+<back="#a0a0a0">
+<hilite="#ffffff">
+<shadow="#ffffff">
+>
+<marker_off<line="#000000">
+<arrow="#808080">
+<back="#a0a0a0">
+<hilite="#ffffff">
+<shadow="#ffffff">
+>
+>

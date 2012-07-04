@@ -1,0 +1,13 @@
+<script type='text/javascript' src='swfobject.js'></script>
+
+<div id='mediaspace'>This text will be replaced</div>
+
+<script type='text/javascript'>
+  var so = new SWFObject('player.swf','ply','470','24','9','#000000');
+  so.addParam('allowfullscreen','true');
+  so.addParam('allowscriptaccess','always');
+  so.addParam('wmode','opaque');
+  so.addVariable('file','http://www.longtailvideo.com/jw/upload/bunny.mp3');
+  so.addVariable('duration','33');
+  so.write('mediaspace');
+</script>

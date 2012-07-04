@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html dir="rtl" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="keywords" content="heichal hatfila, heichal hatefila, beis hamedrash, beis hamidrash, synagogue, binyomin eisenberger, binyamin eisenberger">
+<meta name="author" content="Rabbi Binyomin Eisenberger">
+<title>Heichal Hatfila</title>
+<link href="styles/main.css" rel="stylesheet">
+<!--<%a5
+'The componentAlias MUST be UNIQUE for each component on the page. It must not have spaces in the name. Keep name as short as possible
+dim componentAlias as c 
+componentAlias = "login"
+Delete tmpl_login
+DIM tmpl_login as P
+tmpl_login = a5w_load_component("login") 'SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (LOAD:login)
+'Following code allows you to override settings in the saved component, and specify the component alias (componentName property).
+'Tip: Keep the componentName property short because this name is used in page URLs, and it will help keep the URLs short.
+'Each component on a page must have a unique alias (componentName property).
+with tmpl_login
+	componentName = "login"
+end with 
+'=======================================compute the HTML for the Component=======================================
+delete x_login
+dim x_login as p
+x_login = a5w_run_Component(tmpl_login)  'SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (RUN:tmpl_login) (EDIT:login)
+'=============================================================================================================
+if x_login.RedirectURL <> "" then 
+	response.redirect(x_login.redirectURL)
+	end
+end if 
+?x_login.Output.Head.JavaScript
+%>-->
+</head>
+
+<!--[if IE 7 ]>    <body class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <body class="ie8"> <![endif]-->
+<!--[if (gt IE 8)|!(IE)]><!--> <body> <!--<![endif]-->
+  <div id="clouds"></div>
+  <div id="site-background"></div>
+  <div id="wrapper">
+    <div id="header">
+      <h1><a href="/"  class="ir" title="Home">Beis Hamedrash Heichal Hatfila - בית המדרש היכל התפלה</a></h1>
+      <!--<a href="#" id="logout-button" class="ir">Log Out</a>-->
+      <a href="#" id="login-button" class="ir">Log In</a>
+      <!--<%a5
+      dim pUser as p
+      dim loggedIn as c
+      dim notloggedIn as c
+      dim output as c
+      loggedIn = <<%html%
+        <a href="logout.a5w?np=/newHome.a5w" id="logout-button" class="ir">Log Out</a>
+      %html%
+      notloggedIn = <<%html%
+		<a href="login.a5w?np=/newHome.a5w" id="login-button" class="ir">Log In</a>
+      %html%
+      
+      a5ws_logged_in_user_values(pUser,request,session)
+      if eval_valid("pUser.userid") = .T. then
+          if pUser.userid = ""
+              output = evaluate_string(notloggedIn)
+          else
+              output = evaluate_string(loggedIn)
+          end if
+      else
+          output = evaluate_string(notloggedIn)
+      end if
+      
+      ?output
+      %>-->
+      <div id="login-wrap">
+        <div id="login-back">
+          <bdo dir="ltr">
+            <a class="close" href="#"></a>
+            <!--<%A5 ?x_login.Output.Body.Login_HTML %>-->
+          </bdo>
+        </div>
+      </div>
+      <ul>
+        <li id="li-1">
+          <a href="#" class="ir">תורה</a>
+          <ul>
+            <li><a href="#">&#1513;&#1497;&#1506;&#1493;&#1512;&#1497;&#1501; &#1489;&#1495;&#1493;&#1502;&#1513; &#1512;&#1513;"&#1497;</a></li>
+            <li><a href="#">&#1513;&#1497;&#1506;&#1493;&#1512;&#1497;&#1501; &#1489;&#1514;&#1504;"&#1498;</a></li>
+            <li><a href="#">&#1513;&#1497;&#1506;&#1493;&#1512;&#1497;&#1501; &#1489;&#1492;&#1490;&#1491;&#1514; &#1492;&#1513;"&#1505;</a></li>
+            <li><a href="#">Shiurim in English</a></li>
+          </ul>
+        </li>
+        <li id="li-2">
+          <a href="#" class="ir">עבודה</a>
+          <ul>
+            <li><a href="#">&#1494;&#1502;&#1504;&#1497; &#1514;&#1508;&#1497;&#1500;&#1492; &#1493;&#1513;&#1497;&#1506;&#1493;&#1512;&#1497;&#1501;</a></li>
+            <li><a href="#">&#1513;&#1502;&#1495;&#1493;&#1514;</a></li>
+            <li><a href="#">&#1504;&#1491;&#1512;&#1497;&#1501; &#1493;&#1504;&#1491;&#1489;&#1493;&#1514;</a></li>
+            <li><a href="#">&#1502;&#1499;&#1493;&#1503; &#1495;&#1489;&#1512;&#1497;&#1501; &#1502;&#1511;&#1513;&#1497;&#1489;&#1497;&#1501;</a></li>
+          </ul>
+        </li>
+        <li id="li-3">
+          <a href="#" class="ir">גמ&quot;ח</a>
+          <ul>
+            <li><a href="#">&#1511;&#1493;&#1508;&#1514; &#1489;&#1500;&#1489; &#1488;&#1495;&#1491;</a></li>
+            <li><a href="#">&#1490;&#1502;"&#1495; &#1492;&#1500;&#1493;&#1493;&#1488;&#1493;&#1514;</a></li>
+            <li><a href="#">&#1500;&#1499;&#1493; &#1493;&#1492;&#1514;&#1508;&#1512;&#1504;&#1505;&#1493; &#1494;&#1492; &#1502;&#1494;&#1492;</a></li>
+            <li><a href="#">&#1506;&#1494;&#1512;&#1514; &#1504;&#1513;&#1497;&#1501;</a></li>
+          </ul>
+        </li>
+      </ul>
+    <!-- #header --></div>
+    <div id="content">
+    <h2 id="h2-1" class="ir">תורה<img src="images/torah.png" width="64" height="28" alt="תורה"></h2>
+    <ul id="ul-1">
+      <li><a id="a-1" href="#">שיעורים בחומש רש"י<img src="images/windows/chumash.png" width="84" height="33" alt="Lessons on Chumash"></a></li>
+      <li><a id="a-2" href="#">שיעורים בתנ"ך<img src="images/windows/tanach.png" width="57" height="35" alt="Lessons on Tanach"></a></li>
+      <li><a id="a-3" href="#">שיעורים בהגדת הש"ס<img src="images/windows/shas.png" width="87" height="33" alt="Lessons on Hagodas Hashas"></a></li>
+      <li><a id="a-4" href="#">Shiurim in english<img src="images/windows/english.png" width="62" height="34" alt="Lessons in English"></a></li>
+    </ul>
+    <h2 id="h2-2" class="ir">עבודה<img src="images/avoda.png" width="75" height="32" alt="עבודה"></h2>
+    <ul id="ul-2">
+      <li><a id="a-5" href="#">זמני תפילה ושיעורים<img src="images/windows/times.png" width="69" height="36" alt="Prayer and Lessons Schedule"></a></li>
+      <li><a id="a-6" href="#">שמחות<img src="images/windows/simchas.png" width="53" height="18" alt="Events"></a></li>
+      <li><a id="a-7" href="#">נדרים ונדבות<img src="images/windows/nedovos.png" width="47" height="33" alt="Pay your bills"></a></li>
+      <li><a id="a-8" href="#">מכון חברים מקשיבים<img src="images/windows/publishing.png" width="93" height="33" alt="Book publishing"></a></li>
+    </ul>
+    <h2 id="h2-3" class="ir">גמילת חסדים<img src="images/gmilat_chasadim.png" width="92" height="42" alt="גמילת חסדים"></h2>
+    <ul id="ul-3">
+      <li><a id="a-9" href="#">קופת בלב אחד<img src="images/windows/belev_echod.png" width="61" height="33" alt="Kupat Belev Echod"></a></li>
+      <li><a id="a-10" href="#">גמ"ח הלוואות<img src="images/windows/lending.png" width="57" height="34" alt="Lending fund"></a></li>
+      <li><a id="a-11" href="#">לכו והתפרנסו זה מזה<img src="images/windows/lechu_vehisparnesu.png" width="89" height="36" alt="Lechu Vehispanesu Ze Mize"></a></li>
+      <li><a id="a-12" href="#">עזרת נשים<img src="images/windows/women.png" width="38" height="33" alt="Women's section"></a></li>
+    </ul>
+    <!-- #content --></div>
+  <!-- #wrapper --></div>
+  <div id="pebbles"></div>
+  <div id="footer">
+    <p>Heichal Hatfilah: 1650 56th St. Brooklyn, New York 11204
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    Mailing address: 1171 57th St. Brooklyn, New York 11219
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="http://www.gcnymarketing.com" target="_blank">Website by: <span>GCNY</span></a>
+    </p>
+  <!-- #footer --></div>
+   
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+  <script>!window.jQuery && document.write('<script src="javascript/jquery-1.4.3.js"><\/script>')</script>
+  <script src="javascript/cufon-yui.js"></script>
+  <script src="javascript/hadasanewregular-cufon.js"></script>
+  <script src="javascript/main.js"></script>
+</body>
+</html>

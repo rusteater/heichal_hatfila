@@ -1,0 +1,303 @@
+/*@font-face {
+	font-family: 'HadasaNewRegular';
+	src: url('../fonts/hadasanewregular-webfont.eot');
+	src: local('☺'), url('../fonts/hadasanewregular-webfont.woff') format('woff'), url('../fonts/hadasanewregular-webfont.ttf') format('truetype'), url('../fonts/hadasanewregular-webfont.svg#webfontbOcO0xcH') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}*/
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+}
+img { border: none; }
+body { background: url(../images/background.png) repeat-x left top; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; }
+#clouds {
+  overflow: hidden;
+  position: relative;
+  height: 271px;
+  margin-top: 58px;
+}
+#clouds #cloud {
+  position: static;
+  display: block;
+  margin: -15px auto 0px;
+}
+#clouds img { position: absolute; }
+#cloud1 {
+  right: 615px;
+  top: -35px;
+}
+#cloud2 {
+  right: 42px;
+  top: 8px;
+}
+#cloud3 {
+  right: 1110px;
+  top: 7px;
+}
+#site-background {
+  height: 475px;
+  background: url(../images/shul.png) no-repeat center -221px;
+}
+#wrapper {
+  width: 980px;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 804px;
+  margin-top: -804px;
+}
+#header {
+  height: 46px;
+  background: url(../images/header.png) no-repeat center 2px;
+  position: relative;
+  z-index: 99;
+  font-family: 'HadasaNewRegular', sans-serif;
+  font-size-adjust: 0.43;
+}
+#header > * {
+  float: right;
+}
+#header > h1 {
+  float: left;
+}
+#header a {
+  display: block;
+}
+#header ul {
+  list-style: none;
+}
+#header #login-button {
+  height: 100%;
+  width: 207px;
+  background: url(../images/login.png) no-repeat 30px -99px;
+}
+#header #login-button:hover {
+  background: url(../images/login.png) no-repeat 30px 12px;
+}
+#header #logout-button {
+  height: 100%;
+  width: 207px;
+  background: url(../images/logout.png) no-repeat 30px 11px;
+}
+#header #logout-button:hover {
+  background: url(../images/logout.png) no-repeat 30px -40px;
+}
+#header > ul {
+  width: 450px;
+}
+#header > ul > li {
+  float: right;
+  height: 100%;
+  width: 150px;
+}
+#header > ul > li > a {
+  height: 46px;
+  background: url(../images/header_rollover.png) no-repeat center -100px;
+}
+#li-1:hover > a {
+  background: url(../images/header_rollover.png) no-repeat -257px 6px;
+}
+#li-2:hover > a {
+  background: url(../images/header_rollover.png) no-repeat -107px 6px;
+}
+#li-3:hover > a {
+  background: url(../images/header_rollover.png) no-repeat 43px 6px;
+}
+#header > ul > li ul {
+  position: absolute;
+  top: 46px;
+  height: 144px;
+  width: 145px;
+  padding: 3px;
+  background: url(../images/dropdown.png) no-repeat center top;  
+}
+.no-js #header > ul > li ul {
+  display: none;
+}
+#header #li-1 ul { right: 205px; }
+#header #li-2 ul { right: 355px; }
+#header #li-3 ul { right: 505px; }
+/* ---------- Rollover Effect ---------- */
+#header > ul > li:hover > ul {
+  display: block;
+}
+/* ---------- End Rollover Effect ---------- */
+#header > ul > li ul > li {
+  height: 28px;
+  padding: 4px 8px;
+}
+#header > ul > li ul > li > a {
+  height: 28px;
+  line-height: 28px;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  background: url(../images/menu_link_hover_back.png) no-repeat center 999px;
+}
+#header > ul > li ul > li > a:hover {
+  color: #000;
+  background: url(../images/menu_link_hover_back.png) no-repeat center center;
+}
+h1 {
+  height: 100%;
+  width: 323px;
+}
+h1 a {
+  height: 100%;
+}
+#content {
+  /* background image needed again, so that if (window width < #wrapper width), the background-image should not move */
+  background: url(../images/shul.png) no-repeat center 62px;
+  height: 758px;
+  position: relative;
+}
+h2 {
+  position: absolute;
+  top: 246px;
+  width: 125px;
+  height: 103px;
+}
+h2 img {margin-top: 44px;}
+#h2-1 { right: 258px; }
+#h2-2 { right: 425px; }
+#h2-3 { right: 595px; }
+#h2-3 img { margin-top: 32px; }
+h2 img, #content ul img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+#content ul {
+  list-style: none;
+  position: absolute;
+  top: 355px;
+  width: 135px;
+  line-height: 0px;
+  height: 200px;
+  overflow:hidden;
+}
+#content #ul-1 {right: 250px;}
+#content #ul-2 {right: 420px;}
+#content #ul-3 {right: 590px;}
+#content ul a { text-indent:-9999em; position: relative; display: block; line-height: 0px; text-decoration: none; height: 40px; }
+#content ul a img { position: absolute; }
+#a-1 img {right: 25px; top: 6px;}
+#a-2 img {right: 36px; top: 5px;}
+#a-3 img {right: 21px; top: 5px;}
+#a-4 img {right: 32px; top: 5px;}
+#a-5 img {right: 31px; top: 3px;}
+#a-6 img {right: 38px; top: 13px;}
+#a-7 img {right: 39px; top: 4px;}
+#a-8 img {right: 19px; top: 5px;}
+#a-9 img {right: 35px; top: 4px;}
+#a-10 img {right: 36px; top: 3px;}
+#a-11 img {right: 24px; top: 1px;}
+#a-12 img {right: 48px; top: 4px;}
+.ie7 #content ul li { height: 38px; }
+.ie7 #a-2 img {top: 2px;}
+.ie7 #a-3 img {top: 3px;}
+.ie7 #a-4 img {top: 0px;}
+.ie7 #a-7 img {top: 1px;}
+.ie7 #a-8 img {top: 0px;}
+.ie7 #a-10 img {top: 1px;}
+.ie7 #a-11 img {top: -2px;}
+.ie7 #a-12 img {top: -2px;}
+
+#pebbles {
+  background: url(../images/pebbles.jpg) repeat-x;
+  height: 157px;
+}
+#footer {
+  background: url(../images/footer.png) repeat-x top;
+  height: 37px;
+  font-size: 14px;
+}
+#footer p {
+  line-height: 37px;
+  width: 980px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: #fff;
+}
+#footer a:link, #footer a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+#footer a:hover span, #footer a:active span{
+  color: #005ba3;
+  text-decoration: underline;
+}
+
+
+
+
+#login-wrap {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  height: 156px;
+  width: 248px;
+}
+#login-wrap {
+  position: absolute;
+  top:46px;
+  right: 0px;
+  overflow: hidden;
+}
+#login-back {
+  height: 136px;
+  width: 228px;
+  padding: 10px;
+  margin-top: -200px;
+  background: url(../images/login_drop.png) no-repeat center center;
+  position: relative;
+}
+#login-back a.close:link, #login-back a.close:visited {
+  background: url(../images/login_close.png) no-repeat -99px center;
+  height: 22px;
+  width: 23px;
+  position: absolute;
+  top: 4px;
+  left: 217px;
+}
+#login-back a.close:hover, #login-back a.close:active {
+  background: url(../images/login_close.png) no-repeat center center;
+}
+#login-back label {
+  display: block;
+  float: left;
+  width: 55px;
+  font-size: 16px;
+}
+#login-back #login_submitbutton {
+  margin-top: 22px;
+  float: right;
+  width: 50px;
+  height: 25px;
+}
+#login-back a:link, #login-back a:visited {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  width: 160px;
+}
+#login-back a:hover, #login-back a:active {
+  text-decoration: underline;
+  color: #005ba3;
+}
+#login-back a.first-link {
+  margin-top: 12px;
+}
+/* General stuff */
+html { overflow-y: scroll; } /* force scrollbar */
+.ie7 img { -ms-interpolation-mode: bicubic; } /* bicubic resizing for non-native sized IMG */
+.ir { display:block; text-indent:-9999em; overflow:hidden; background-repeat: no-repeat; text-decoration: none; } /* for image replacement */
+/* >> The Magnificent CLEARFIX << */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; } /* Hides from IE-mac \*/
+.clearfix { display: block; }
+/* Prevent iOS, WinMobile from adjusting font size */
+html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; }

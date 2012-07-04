@@ -1,0 +1,96 @@
+.yossiSFTABLE{
+
+}
+
+.yossiSFLabelTD{
+
+}
+
+.yossiSFDataTD{
+
+}
+
+.yossiSFErrorDataTD{
+color: #f00
+
+}
+
+a.yossiSFLabelLink:link, a.yossiSFLabelLink:visited{
+font-size: 10pt;
+color: #001580;
+text-decoration: underline;
+
+}
+
+a.yossiSFLabelLink:hover, a.yossiSFLabelLink:active{
+font-size: 10pt;
+color: #001580;
+text-decoration: none;
+
+}
+
+a.yossiSFDataLink:link, a.yossiSFDataLink:visited{
+font-size: 10pt;
+color: #001580;
+text-decoration: underline;
+
+}
+
+a.yossiSFDataLink:hover, a.yossiSFDataLink:active{
+font-size: 10pt;
+color: #001580;
+text-decoration: none;
+
+}
+
+.yossiSFFrame{
+font-family: tahoma, verdana, arial, helvetica;
+font-size: 10pt;
+border-style: solid;
+border-width: 1px;
+border-color: #000000;
+
+}
+
+.yossiSFFrameLabel{
+color: #000;
+
+}
+
+.yossiSFButton{
+font-family: tahoma, verdana, arial, helvetica;
+font-size: 10pt;
+font-weight: bold;
+background-color: #a2acd2;
+border-style: solid;
+border-width: 1px;
+border-color: #000000;
+
+}
+
+.yossiSFInput{
+font-family: tahoma, verdana, arial, helvetica;
+font-size: 10pt;
+border-style: solid;
+border-width: 1px;
+border-color: #000000;
+
+}
+
+.yossiSFTextarea{
+font-family: tahoma, verdana, arial, helvetica;
+font-size: 10pt;
+border-style: solid;
+border-width: 1px;
+border-color: #000000;
+
+}
+
+.yossiSFSelect{
+font-family: tahoma, verdana, arial, helvetica;
+font-size: 10pt;
+border-style: solid;
+border-width: 1px;
+border-color: #000000;
+
+}
